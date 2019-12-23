@@ -8,9 +8,13 @@
     tools:context=".SearchEmployeeActivity">
 
     <EditText
-        android:id="@+id/etSearch"
+        android:id="@+id/etEmpID"
         android:hint="Enter Employee No"
         style="@style/EditTextDesign"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvData"/>
 
     <Button
         android:id="@+id/btnSearch"
